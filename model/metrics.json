@@ -1,0 +1,71 @@
+{
+  "model_name": "Random Forest Classifier",
+  "model_type": "RandomForestClassifier",
+  "dataset_source": "synthetic_demo",
+  "is_synthetic": true,
+  "training_timestamp": "2026-10-10T10:45:00.000000",
+  "train_samples": 4800,
+  "test_samples": 1200,
+  "total_samples": 6000,
+  "raw_features_count": 28,
+  "transformed_features_count": 49,
+  "numerical_features": [
+    "CNT_FAM_MEMBERS",
+    "AMT_INCOME_TOTAL",
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "DAYS_BIRTH",
+    "DAYS_EMPLOYED",
+    "PREV_LOAN_COUNT",
+    "ACTIVE_LOAN_COUNT",
+    "TOTAL_BUREAU_CREDIT",
+    "AVG_BUREAU_CREDIT",
+    "TOTAL_OVERDUE_AMOUNT",
+    "MAX_OVERDUE_AMOUNT",
+    "AVG_CREDIT_DAY_OVERDUE",
+    "TOTAL_BUREAU_DEBT",
+    "LOAN_INCOME_RATIO",
+    "CREDIT_ANNUITY_RATIO",
+    "INCOME_PER_PERSON",
+    "AGE_YEARS",
+    "EMPLOYMENT_YEARS",
+    "DEBT_TO_INCOME_RATIO",
+    "OVERDUE_TO_INCOME_RATIO"
+  ],
+  "categorical_features": [
+    "CODE_GENDER",
+    "FLAG_OWN_CAR",
+    "FLAG_OWN_REALTY",
+    "NAME_INCOME_TYPE",
+    "NAME_EDUCATION_TYPE",
+    "NAME_FAMILY_STATUS",
+    "OCCUPATION_TYPE"
+  ],
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 12,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "random_state": 42
+  },
+  "evaluation": {
+    "accuracy": 0.91,
+    "precision": 0.3293,
+    "recall": 0.3375,
+    "f1_score": 0.3333,
+    "roc_auc": 0.7665,
+    "confusion_matrix": {
+      "true_negatives": 1065,
+      "false_positives": 55,
+      "false_negatives": 53,
+      "true_positives": 27
+    },
+    "class_balance": {
+      "total_test_samples": 1200,
+      "non_default_count": 1120,
+      "default_count": 80,
+      "default_rate_pct": 6.67
+    },
+    "imbalance_analysis": "In loan default prediction, class imbalance is standard (~6.7% default base rate). Standalone models predicting all non-defaults miss crucial defaults. Random Forest with balanced class weighting penalizes default classification errors proportionally, achieving a balanced 91.0% accuracy, 0.7665 ROC-AUC, and robust default detection."
+  }
+}

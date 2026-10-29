@@ -1,0 +1,68 @@
+[
+  {
+    "model_name": "Random Forest (Balanced)",
+    "roc_auc": 0.7482,
+    "f1_score": 0.3088,
+    "recall": 0.2692,
+    "precision": 0.36210000000000003,
+    "accuracy": 0.9217,
+    "brier_score": 0.0766,
+    "composite_score": 0.6684,
+    "is_best": true
+  },
+  {
+    "model_name": "Gradient Boosting (GBDT)",
+    "roc_auc": 0.7364,
+    "f1_score": 0.2264,
+    "recall": 0.15380000000000002,
+    "precision": 0.4286,
+    "accuracy": 0.9317,
+    "brier_score": 0.0575,
+    "composite_score": 0.642,
+    "is_best": false
+  },
+  {
+    "model_name": "AdaBoost Classifier",
+    "roc_auc": 0.7496,
+    "f1_score": 0.1758,
+    "recall": 0.1026,
+    "precision": 0.6154,
+    "accuracy": 0.9375,
+    "brier_score": 0.1232,
+    "composite_score": 0.6339,
+    "is_best": false
+  },
+  {
+    "model_name": "Extra Trees (Balanced)",
+    "roc_auc": 0.7278,
+    "f1_score": 0.2095,
+    "recall": 0.141,
+    "precision": 0.40740000000000004,
+    "accuracy": 0.9308,
+    "brier_score": 0.1015,
+    "composite_score": 0.6332,
+    "is_best": false
+  },
+  {
+    "model_name": "Logistic Regression (Balanced)",
+    "roc_auc": 0.7525,
+    "f1_score": 0.2455,
+    "recall": 0.6154,
+    "precision": 0.1534,
+    "accuracy": 0.7542,
+    "brier_score": 0.1769,
+    "composite_score": 0.6009,
+    "is_best": false
+  },
+  {
+    "model_name": "Decision Tree (Balanced)",
+    "roc_auc": 0.5137,
+    "f1_score": 0.1579,
+    "recall": 0.2692,
+    "precision": 0.1117,
+    "accuracy": 0.8133,
+    "brier_score": 0.1567,
+    "composite_score": 0.4969,
+    "is_best": false
+  }
+]

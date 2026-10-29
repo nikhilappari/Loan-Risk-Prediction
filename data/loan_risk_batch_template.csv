@@ -1,0 +1,6 @@
+applicant_name,applicant_ref,amt_income_total,amt_credit,amt_annuity,age_years,employment_years,code_gender,cnt_fam_members,name_education_type,name_income_type,name_family_status,occupation_type,flag_own_car,flag_own_realty,prev_loan_count,active_loan_count,total_bureau_credit,avg_bureau_credit,total_bureau_debt,total_overdue_amount,max_overdue_amount,avg_credit_day_overdue
+Priya Sharma,APP-PRIME-01,280000,350000,24000,45,12.0,F,2,Higher education,Commercial associate,Married,Managers,Y,Y,5,1,500000,100000,35000,0,0,0
+Vikram Patel,APP-NEARPRIME-02,140000,420000,30000,32,4.5,M,3,Secondary / secondary special,Working,Married,Core staff,N,Y,3,2,290000,96600,95000,0,0,0
+Amit Verma,APP-SUBPRIME-03,45000,380000,35000,23,0.8,M,4,Lower secondary,Working,Single / not married,Laborers,N,N,6,4,420000,70000,240000,24000,14000,38
+Rajesh Kumar,APP-BATCH-04,360000,500000,38000,38,7.5,M,2,Higher education,Working,Married,High skill tech staff,Y,Y,4,1,600000,150000,45000,0,0,0
+Sunita Rao,APP-BATCH-05,95000,250000,21000,29,2.0,F,1,Secondary / secondary special,Working,Single / not married,Sales staff,N,N,2,1,180000,90000,50000,0,0,0

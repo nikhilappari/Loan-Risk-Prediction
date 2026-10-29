@@ -1,0 +1,3 @@
+SYNTHETIC_DEMO
+Generated adhering strictly to Home Credit schema for training and verification.
+Replace application_train.csv and bureau.csv with full Kaggle datasets when available.

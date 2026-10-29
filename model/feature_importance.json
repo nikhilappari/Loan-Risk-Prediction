@@ -1,0 +1,210 @@
+{
+  "dataset_source": "synthetic_demo",
+  "generated_timestamp": "2026-10-07T14:51:15.351386",
+  "best_model_name": "Ensemble Multi-Model Classifier",
+  "top_features": [
+    {
+      "feature": "DEBT_TO_INCOME_RATIO",
+      "importance": 0.108058
+    },
+    {
+      "feature": "LOAN_INCOME_RATIO",
+      "importance": 0.069706
+    },
+    {
+      "feature": "TOTAL_BUREAU_DEBT",
+      "importance": 0.06897
+    },
+    {
+      "feature": "AVG_CREDIT_DAY_OVERDUE",
+      "importance": 0.065754
+    },
+    {
+      "feature": "AMT_INCOME_TOTAL",
+      "importance": 0.053914
+    },
+    {
+      "feature": "INCOME_PER_PERSON",
+      "importance": 0.046454
+    },
+    {
+      "feature": "OVERDUE_TO_INCOME_RATIO",
+      "importance": 0.045969
+    },
+    {
+      "feature": "TOTAL_BUREAU_CREDIT",
+      "importance": 0.044865
+    },
+    {
+      "feature": "AVG_BUREAU_CREDIT",
+      "importance": 0.040604
+    },
+    {
+      "feature": "AMT_CREDIT",
+      "importance": 0.039756
+    },
+    {
+      "feature": "AMT_ANNUITY",
+      "importance": 0.038077
+    },
+    {
+      "feature": "AGE_YEARS",
+      "importance": 0.03785
+    },
+    {
+      "feature": "CREDIT_ANNUITY_RATIO",
+      "importance": 0.037013
+    },
+    {
+      "feature": "DAYS_BIRTH",
+      "importance": 0.036633
+    },
+    {
+      "feature": "TOTAL_OVERDUE_AMOUNT",
+      "importance": 0.035084
+    },
+    {
+      "feature": "MAX_OVERDUE_AMOUNT",
+      "importance": 0.034797
+    },
+    {
+      "feature": "EMPLOYMENT_YEARS",
+      "importance": 0.033858
+    },
+    {
+      "feature": "DAYS_EMPLOYED",
+      "importance": 0.031722
+    },
+    {
+      "feature": "ACTIVE_LOAN_COUNT",
+      "importance": 0.019429
+    },
+    {
+      "feature": "PREV_LOAN_COUNT",
+      "importance": 0.014554
+    },
+    {
+      "feature": "CNT_FAM_MEMBERS",
+      "importance": 0.010835
+    },
+    {
+      "feature": "FLAG_OWN_CAR_N",
+      "importance": 0.00579
+    },
+    {
+      "feature": "FLAG_OWN_REALTY_Y",
+      "importance": 0.005669
+    },
+    {
+      "feature": "FLAG_OWN_REALTY_N",
+      "importance": 0.005118
+    },
+    {
+      "feature": "CODE_GENDER_M",
+      "importance": 0.004727
+    },
+    {
+      "feature": "NAME_FAMILY_STATUS_Married",
+      "importance": 0.004657
+    },
+    {
+      "feature": "NAME_EDUCATION_TYPE_Higher education",
+      "importance": 0.004266
+    },
+    {
+      "feature": "CODE_GENDER_F",
+      "importance": 0.004205
+    },
+    {
+      "feature": "OCCUPATION_TYPE_Laborers",
+      "importance": 0.0042
+    },
+    {
+      "feature": "NAME_EDUCATION_TYPE_Secondary / secondary special",
+      "importance": 0.003871
+    }
+  ],
+  "grouped_features": [
+    {
+      "feature": "DEBT_TO_INCOME_RATIO",
+      "importance": 0.108058
+    },
+    {
+      "feature": "LOAN_INCOME_RATIO",
+      "importance": 0.069706
+    },
+    {
+      "feature": "TOTAL_BUREAU_DEBT",
+      "importance": 0.06897
+    },
+    {
+      "feature": "AVG_CREDIT_DAY_OVERDUE",
+      "importance": 0.065754
+    },
+    {
+      "feature": "AMT_INCOME_TOTAL",
+      "importance": 0.053914
+    },
+    {
+      "feature": "INCOME_PER_PERSON",
+      "importance": 0.046454
+    },
+    {
+      "feature": "OVERDUE_TO_INCOME_RATIO",
+      "importance": 0.045969
+    },
+    {
+      "feature": "TOTAL_BUREAU_CREDIT",
+      "importance": 0.044865
+    },
+    {
+      "feature": "AVG_BUREAU_CREDIT",
+      "importance": 0.040604
+    },
+    {
+      "feature": "AMT_CREDIT",
+      "importance": 0.039756
+    },
+    {
+      "feature": "AMT_ANNUITY",
+      "importance": 0.038077
+    },
+    {
+      "feature": "AGE_YEARS",
+      "importance": 0.03785
+    },
+    {
+      "feature": "CREDIT_ANNUITY_RATIO",
+      "importance": 0.037013
+    },
+    {
+      "feature": "DAYS_BIRTH",
+      "importance": 0.036633
+    },
+    {
+      "feature": "TOTAL_OVERDUE_AMOUNT",
+      "importance": 0.035084
+    },
+    {
+      "feature": "MAX_OVERDUE_AMOUNT",
+      "importance": 0.034797
+    },
+    {
+      "feature": "EMPLOYMENT_YEARS",
+      "importance": 0.033858
+    },
+    {
+      "feature": "DAYS_EMPLOYED",
+      "importance": 0.031722
+    },
+    {
+      "feature": "OCCUPATION_TYPE",
+      "importance": 0.023768
+    },
+    {
+      "feature": "ACTIVE_LOAN_COUNT",
+      "importance": 0.019429
+    }
+  ],
+  "disclaimer": "Feature sensitivity derived from the trained Ensemble Multi-Model Classifier model. Evaluates statistical contribution to credit default risk assessment."
+}
