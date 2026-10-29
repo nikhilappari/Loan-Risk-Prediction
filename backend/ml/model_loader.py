@@ -20,6 +20,7 @@ class ModelRegistry:
     _metrics = None
     _feature_importance = None
     _is_loaded = False
+    _last_error = None
 
     @classmethod
     def get_instance(cls):
@@ -53,6 +54,7 @@ class ModelRegistry:
             self._is_loaded = True
             logger.info("Pipeline and metrics loaded successfully.")
         except Exception as e:
+            self._last_error = f"{type(e).__name__}: {str(e)}"
             logger.error(f"Error loading model artifacts: {e}", exc_info=True)
             self._is_loaded = False
 
